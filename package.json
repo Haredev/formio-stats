@@ -1,12 +1,12 @@
 {
-  "name": "test101-checkbox",
-  "version": "1.0.1",
+  "name": "formio-stats",
+  "version": "1.0.7",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
-    "publish": "npx tsc && npm publish",
+    "toNpm": "npx jest && npx tsc && npm publish",
     "test": "npx jest"
   },
   "repository": {
