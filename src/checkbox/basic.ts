@@ -1,4 +1,4 @@
-export const formioStatsCheckbox = function(formioSubmissions: any, checkBoxId: string) {
+export const distribution = function(formioSubmissions: any, checkBoxId: string) {
     var trueCount = 0;                    
     var falseCount = 0;
     for (var key in formioSubmissions) {           
